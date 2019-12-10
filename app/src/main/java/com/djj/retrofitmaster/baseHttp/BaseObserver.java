@@ -32,6 +32,7 @@ public abstract class BaseObserver<T> implements Observer<BaseResponse<T>> {
 
     @Override
     public void onError(Throwable e) {
+        onFailure(e,RxExceptionUtil.exceptionHandler(e));
         Log.e(TAG, "Throwable: " + e.getMessage());
     }
 
