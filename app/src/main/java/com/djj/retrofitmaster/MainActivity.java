@@ -94,7 +94,7 @@ public class MainActivity extends RxAppCompatActivity {
         RequestBody description = RequestBody.create(MediaType.parse("multipart/form-data"),descriptionString);
 
         //3、调用接口上传方法
-        Call<DemoBeanVo> upload = apiService.upload(description,body);
+        Call<DemoBeanVo> upload = (Call<DemoBeanVo>) apiService.upload(description,body);
         //4、异步请求
         upload.enqueue(new Callback<DemoBeanVo>() {
             @Override
