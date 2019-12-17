@@ -121,6 +121,7 @@ public class MainActivity extends RxAppCompatActivity {
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .build();
 
+
         //Rxjava用法
         retrofit.create(ApiService.class)
                 .getTimetable()
@@ -162,6 +163,7 @@ public class MainActivity extends RxAppCompatActivity {
 //                        Log.e(TAG, "onComplete: " );
 //                    }
 //                });
+
 
         //2、获取接口对象
 //        ApiService apiService = retrofit.create(ApiService.class);
