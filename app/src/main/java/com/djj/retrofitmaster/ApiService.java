@@ -34,13 +34,13 @@ import retrofit2.http.Url;
  */
 public interface ApiService {
 
-//    @GET(Constans.timetable)
+//    @GET(Constants.timetable)
 //    Call<TimetableVo> getTimetable();
 
-//    @GET(Constans.timetable)
+//    @GET(Constants.timetable)
 //    Observable<TimetableVo> getTimetable();
 
-    @GET(Constans.timetable)
+    @GET(Constants.timetable)
     Observable<BaseResponse<DemoBeanVo>> getTimetable();
 
     //文件上传

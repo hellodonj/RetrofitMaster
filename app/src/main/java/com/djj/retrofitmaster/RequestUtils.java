@@ -93,6 +93,7 @@ public class RequestUtils {
 //     */
 //    public static void upLoadImg(RxFragment context, String access_token, List<File> files, Observer<Demo> observer1) {
 //        Map<String, String> header = new HashMap<String, String>();
+
 //        header.put("Accept", "application/json");
 //        header.put("Authorization", access_token);
 //        MultipartBody.Builder builder = new MultipartBody.Builder()

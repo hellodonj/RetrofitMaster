@@ -5,7 +5,7 @@ package com.djj.retrofitmaster;
  * author:djj
  * date:2019/12/4 15:37
  */
-public class Constans {
+public class Constants {
 
     public static final String BaseUrl = "http://120.78.186.81/api/";
     public static final String timetable = "values/5";
